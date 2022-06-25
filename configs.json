@@ -902,4 +902,12 @@
   "trainset": "data/wdc/cameras/title_description_brand_specTableContent/train.txt.xlarge",
   "validset": "data/wdc/cameras/title_description_brand_specTableContent/valid.txt.xlarge",
   "testset": "data/wdc/cameras/title_description_brand_specTableContent/test.txt"
+},
+{
+  "name": "rldata500",
+  "task_type": "classification",
+  "vocab": ["0", "1"],
+  "trainset": "data/RLdata500/train.txt",
+  "validset": "data/RLdata500/valid.txt",
+  "testset": "data/RLdata500/test.txt"
 }]
